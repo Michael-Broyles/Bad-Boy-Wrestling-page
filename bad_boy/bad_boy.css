@@ -1,0 +1,50 @@
+
+body {
+	background-color: black;
+}
+
+.main-container {
+	margin-top: 50px;
+}
+
+.index-intro {
+	padding-top: 2%;
+	width: 100%;
+	background: linear-gradient(to bottom right, black, dimgray, black);
+}
+
+.index-intro .jumbotron {
+	background-color: black;
+	padding: 0px 10px 2px 10px;
+	color: white;
+	border: 1px solid white;
+}
+
+#header {
+	font-family: broadway;
+}
+
+#cover-img {
+	height: 460px;
+}
+
+#mini-cover-img {
+	height: 300px;
+}
+
+#site_map {
+	margin-top: 50px;
+	margin-left: auto;
+	margin-bottom: 20px;
+}
+
+.row_1 {
+	padding-left: 10%;
+}
+
+.row_2 {
+	padding-left: 10%;
+}
+
+
+

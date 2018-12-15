@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Custom Merchandise</title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="../../stock_json.js"></script>
+	<link rel="stylesheet" type="text/css" href="merchandise.css">
+</head>
+<body>
+		
+		
+		<nav class="navbar navbar-default navbar-fixed-top Nbar">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">logo</a>
+				</div>
+				
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+
+						<li>
+							<a href="../../index.html">Home</a>
+						</li>
+
+						<li class="dropdown active">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span>&nbsp;Media & Merchandise</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="../video/images_video.html" onmouseenter="cross.play()">Video</a>
+								</li>
+								<li><a href="#">Images</a></li>
+								<li><a href="#">Interviews</a></li>
+								<li class="active">
+									<a href="merchandise.html" onmouseenter="cross.play()">Merchandise</a>
+								</li>
+							</ul>
+						</li>
+
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span>&nbsp;More</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="../upcomming/upcomming.html" onmouseenter="cross.play()">Upcomming Events</a>
+								</li>
+								<li>
+									<a href="../book_me.html" onmouseenter="cross.play()">Book A Show</a>
+								</li>
+								<li>
+									<a href="../record.html" onmouseenter="cross.play()">Record</a>
+								</li>
+							</ul>
+						</li>
+						
+					</ul>
+
+					<form class="navbar-form navbar-left">
+						<div class="form-group">
+							<input class="form-control" type="text" name="search" placeholder="Search">
+						</div>
+						<button type="submit" class="btn btn-default">Search</button>
+					</form>
+
+					<ul class="nav navbar-nav navbar-right">
+						
+						<li>
+							<a href="../about.html">About</a>
+						</li>
+						
+						<li>
+							<a href="#" data-toggle="modal" data-target="#loginWindow">Log In</a>
+						</li>
+						
+						<li>
+							<a href="../cart/cart.html"><span class="glyphicon glyphicon-shopping-cart"></span>Cart</a>
+						</li>
+						
+					</ul>
+					
+				</div>
+			</div>
+		</nav>
+		
+		
+		<div id="wrapper">
+			<div class="container">
+				<h3 id="heading">Custom Gear</h3>
+				
+				<div class="row row_1">
+					<div class="col-sm-2"></div>
+					
+					<div class="col-sm-2"></div>
+					
+					<div class="col-sm-6">
+						<img src="../../images/merchandise/Blusa.png" class="img-responsive">
+					</div>
+					
+					<div class="col-sm-2"></div>
+				</div>
+				
+				<div class="row row_2">
+					<div class="col-sm-4"></div>
+					
+					<div class="col-sm-4">
+						<input type="number" class="qty" id="item_1_quantity" name="quantity" min="1" max="50" value="1">
+						<span class="price_span" id="item_1_price"></span>
+					</div>
+					
+					<div class="col-sm-4"></div>
+				</div>
+				
+				<div class="row row_3">
+					<div class="col-sm-4"></div>
+					
+					<div class="col-sm-4">
+						<input type="button" class="btn add_cart" id="item_1_add_cart" value="Add To Cart">
+					</div>
+					
+					<div class="col-sm-4"></div>
+				</div>
+				
+				<div class="row row_1">
+					<div class="col-sm-2"></div>
+					
+					<div class="col-sm-2"></div>
+					
+					<div class="col-sm-6">
+						<img src="../../images/merchandise/boots.png" class="img-responsive" id="boots-img">
+					</div>
+					
+					<div class="col-sm-2"></div>
+				</div>
+				
+				<div class="row row_2">
+					<div class="col-sm-4"></div>
+					
+					<div class="col-sm-4">
+						<input type="number" class="qty" id="item_2_quantity" name="quantity" min="1" max="50" value="1">
+						<span class="price_span" id="item_2_price"></span>
+					</div>
+					
+					<div class="col-sm-4"></div>
+				</div>
+				
+				<div class="row row_3">
+					<div class="col-sm-4"></div>
+					
+					<div class="col-sm-4">
+						<input type="button" class="btn add_cart" id="item_2_add_cart" value="Add To Cart">
+					</div>
+					
+					<div class="col-sm-4"></div>
+				</div>
+				
+				<div class="row row_1">
+					<div class="col-sm-2"></div>
+					
+					<div class="col-sm-2"></div>
+					
+					<div class="col-sm-6">
+						<img src="../../images/merchandise/beannie.png" class="img-responsive" id="beannie-img">
+					</div>
+					
+					<div class="col-sm-2"></div>
+				</div>
+				
+				<div class="row row_2">
+					<div class="col-sm-4"></div>
+					
+					<div class="col-sm-4">
+						<input type="number" class="qty" id="item_3_quantity" name="quantity" min="1" max="50" value="1">
+						<span class="price_span" id="item_3_price"></span>
+					</div>
+					
+					<div class="col-sm-4"></div>
+				</div>
+				
+				<div class="row row_3">
+					<div class="col-sm-4"></div>
+					
+					<div class="col-sm-4">
+						<input type="button" class="btn add_cart" id="item_3_add_cart" value="Add To Cart">
+					</div>
+					
+					<div class="col-sm-4"></div>
+				</div>
+				
+			</div>
+		</div>
+		
+
+		
+		
+<script src="merchandise.js"></script>
+</body>
+</html>

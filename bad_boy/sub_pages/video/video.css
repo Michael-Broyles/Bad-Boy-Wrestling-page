@@ -1,0 +1,21 @@
+#wrapper {
+	margin-top: 60px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+#video-title {
+	font-family: broadway;
+	font-size: 50px;
+}
+
+#row_1 {
+	background-color: lightgray;
+	padding: 10px;
+}
+
+#row_2 {
+	background-color: lightgray;
+	padding: 10px;
+	margin-bottom: 20px;
+}

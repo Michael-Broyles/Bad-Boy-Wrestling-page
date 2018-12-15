@@ -1,0 +1,54 @@
+
+body {
+	text-align: center;
+}
+
+#chain {
+	position: absolute;
+	top: 160px;
+	left: 430px;
+	height: 500px;
+	width: 500px;
+}
+
+#clock_holder {
+	position: absolute;
+	top: 260px;
+	left: -100px;
+	margin-left: 30%;
+	padding: 20px;
+	z-index: 100;
+	background-color: transparent;
+}
+
+.clock {
+	text-align: center;
+	text-shadow: 12px 12px 24px ;
+	background-color: transparent; 
+	font-size: 40px;
+	font-family: broadway;
+	width: 500px;
+	color: white;
+	z-index: 99;
+}
+
+.events {
+	font-style: italic;
+	font-family: cursive;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#events_holder {
+	margin: 20px;
+}
+
+#until {
+	position: absolute;
+	top: 580px;
+	left: 460px;
+	text-shadow: 3px 3px 9px white;
+}
+
+
+

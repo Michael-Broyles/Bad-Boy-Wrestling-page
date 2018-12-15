@@ -1,0 +1,67 @@
+#wrapper {
+	margin-top: 30px;
+	margin-bottom: 2%;
+}
+
+#heading {
+	text-align: center;
+	background-color: black;
+	color: white;
+	border-radius: 0px 0px 5px 5px;
+}
+
+.qty {
+	width: 50px;
+	border: 2px solid gray;
+	border-radius: 10px;
+	font-family: georgia;
+	font-size: 20px;
+	padding-left: 8px;
+}
+.qty:hover {
+	color: black;
+}
+
+.price_span {
+	margin-left: 4px;
+	font-family: georgia;
+	font-size: 20px;
+}
+
+.add_cart {
+	margin-top: 10px;
+	margin-bottom: 80px;
+	font-family: georgia;
+	font-size: 14px;
+	font-weight: bold;
+}
+.add_cart:hover {
+	box-shadow: 2px 2px 2px 2px black;
+	color: black;
+}
+
+.row_1 {
+	padding-left: 10px;
+}
+
+.row_2 {
+	padding-left: 80px;
+}
+
+.row_3 {
+	padding-left: 60px;
+}
+
+#boots-img {
+	height: 240px;
+	width: 300px;
+}
+
+#beannie-img {
+	height: 201px;
+	width: 240px;
+}
+
+
+
+
